@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/car1"
+        android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:src="@drawable/audi_q7"
+    android:contentDescription="@string/car1_desc"
+    android:background="#FF0000"
+    android:scaleType="fitCenter" />
+
+    <ImageView
+        android:id="@+id/car2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/mercedes"
+        android:contentDescription="@string/car2_desc"
+        android:background="#00FF00"
+    android:scaleType="fitCenter" />
+
+    <ImageView
+        android:id="@+id/car3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/toureg"
+        android:contentDescription="@string/car3_desc"
+        android:background="#0000FF"
+    android:scaleType="fitCenter" />
+
+    <ImageView
+        android:id="@+id/car4"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/rolls_royce"
+        android:contentDescription="@string/car4_desc"
+        android:background="#FFFF00"
+    android:scaleType="fitCenter" />
+
+</LinearLayout>
